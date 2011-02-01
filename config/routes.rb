@@ -1,4 +1,15 @@
 ReicerLeague::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/downloads"
+
+  get "pages/regras"
+
+  match '/home', :to => 'pages#home'
+  match '/downloads', :to => 'pages#downloads'
+  match '/regras', :to => 'pages#regras'
+
+  root :to => 'pages#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
