@@ -1,3 +1,14 @@
+    Esse é um repositório de um site feito em Ruby on rails 3, o qual conterá
+informações sobre a liga Reicer, um campeonato de corridas, que ocorrem através
+do jogo Rfactor(um jogo de corrida Open source).
+
+    Provavelmente o site será hospedado no heroku, portanto ua url será
+    http://ligareiccer.heroku.com
+
+
+### README Default do rails ####################################################
+
+
 == Welcome to Rails
 
 Rails is a web-application framework that includes everything needed to create
