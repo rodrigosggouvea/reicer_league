@@ -1,0 +1,32 @@
+/* 
+    Document   : custom
+    Created on : 01/02/2011, 20:02:54
+    Author     : rgouvea
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+    background-color: black;
+}
+
+.container {
+    
+}
+
+.header {
+    
+}
+
+.round {
+  -moz-border-radius:    10px;
+  -webkit-border-radius: 10px;
+  border-radius:         10px;
+}
+
