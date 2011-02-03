@@ -13,20 +13,47 @@
 
 root { 
     display: block;
-    background-color: black;
+    background: black;
 }
 
 .container {
     
 }
 
+body {
+    background: #000;
+}
+
 .header {
-    
+    float: left;
+    background: #000;
+}
+
+.nav {
+    float: left;
+    width: auto;
+}
+
+.section {
+    width: auto;
 }
 
 .round {
   -moz-border-radius:    10px;
   -webkit-border-radius: 10px;
   border-radius:         10px;
+}
+
+a.download_button {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 190px;
+  color: #fff;
+  background: #990000;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 20px;
 }
 

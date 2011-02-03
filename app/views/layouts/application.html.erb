@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ReicerLeague</title>
+    <title>Liga REICER de Rfactor </title>
     <%= csrf_meta_tag %>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -12,19 +12,21 @@
     <%= stylesheet_link_tag 'custom', :media => 'screen' %>
 
   </head>
-   <body>
-    <div class="container">
+  <body>
+    <div>
       <header class="header">
         <%= image_tag("logo.png", :alt => "Liga REICER", :class => "round") %>
-        <nav class="round">
+      </header>
+      <br/>
+        <nav class="nav">
           <ul>
-            <li><%= link_to "Home", 'home' %></li>
-            <li><%= link_to "Downloads", 'downloads' %></li>
-            <li><%= link_to "Regras", 'regras' %></li>
+            <%= link_to image_tag("home_button.gif", :alt => "Ir para a home"), 'home' %><br/>
+            <%= link_to image_tag("downloads_button.gif", :alt => "Ir para a home"), 'downloads' %><br/>
+            <%= link_to image_tag("regras_button.gif", :alt => "Ir para a home"), 'regras' %><br/>
+            <%= link_to image_tag("forum_button.gif", :alt => "Ir para a home"), 'http://ligareicer.forumbrasil.net/' %><br/>
           </ul>
         </nav>
-      </header>
-      <section class="round">
+      <section class="section">
         <%= yield %>
       </section>
     </div>
