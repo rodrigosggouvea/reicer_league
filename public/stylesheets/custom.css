@@ -17,7 +17,7 @@ root {
 }
 
 .container {
-    
+    width: 1024px;
 }
 
 body {
@@ -27,6 +27,7 @@ body {
 .header {
     float: left;
     background: #000;
+    width: auto;
 }
 
 .nav {
